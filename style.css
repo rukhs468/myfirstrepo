@@ -1,7 +1,7 @@
 /*Fonts*/
 
 body {
-  background: url("IMG_4617.JPG");
+  background-color: white !important;
   background-attachment: fixed;
   background-position: center;
   background-size: 100vw 100vh;
@@ -20,15 +20,15 @@ h1 {
 }
 
 #homenav {
-  background-color: #999966;
+  background-color: darkgrey;
   z-index: 999;
   width: 100%;
   position: fixed;
 }
 #homenav #list {
-font-family: 'Anton', sans-serif;
-font-size: 20px;
-  color: #663300;
+font-family: Impact, Charcoal, sans-serif;
+font-size: 22px;
+  color: black;
   padding-bottom: 0px;
   font-weight: 500;
 }
@@ -36,16 +36,21 @@ font-size: 20px;
   color: red;
 }
 .sections {
-  height: 100vh;
+
 }
 .homenavigation li {
   float: left;
   list-style-type: none;
   padding-right: 20px;
   font-family: 'Baloo Bhaina', cursive;
+  font-size: large;
 }
 .homenavigation a {
   color: white;
+}
+.homenavigation a:hover {
+  text-decoration: none;
+  color: black;
 }
 ul.homenavigation {
   width: 100vw;
@@ -55,7 +60,7 @@ ul.homenavigation {
   margin-bottom: 20px;
   text-decoration: none;
   padding-top: 50px;
-  background: #663300;
+  background: cadetblue;
 }
 ul.cs-list-section {
   padding-top: 7px;
@@ -67,12 +72,12 @@ li.sections {
 }
 li.sections h3 {
 font-family: 'Roboto Mono', monospace;
-color: white;
+color: black;
 }
 li.sections p {
 font-family:'Arvo', serif;
 font-size: 15px;
-color: white;
+color: black;
 }
 .tab-content {
   position: relative;
@@ -90,15 +95,68 @@ td {
 }
 .panel-default {
   background-color: rgba(255,255,255,.1) !important;
-  color: white;
+  color: black;
   height: 100vh;
 }
 #contactbutton {
-  margin-top: 50px;
-  float: center;
+  margin-top: 10%;
+  margin-left: 42%;
+  background-color: cadetblue;
+  color: black;
+  border: none;
+  height: 42px;
+  width: 200px;
+  font-size: large;
+  font-family: 'Baloo Bhaina', cursive;
 }
-#contactp {
+.contactp {
   clear: both;
+  color: black;
+  margin-top: 2%;
+  margin-left: 34%;
+  font-size: x-large;
+  font-family: 'Arvo', serif;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.projectdesc {
+  background-color: cadetblue !important;
+  padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    background: white;
+    margin-bottom: 50px;
+    height: 300px;
+    font-family: 'Arvo', serif;
+    font-size: 15px;
+}
+.projectname {
+  margin-left: 40px;
+  background: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  background-color: black;
+}
+h3#t {
+  padding-top: 65px;
+  text-size: 30px;
   color: white;
-  margin-top: 20px;
+  font-family: 'Baloo Bhaina', cursive;
+}
+h3#e {
+  padding-top: 42px;
+  color: white;
+  font-family: 'Baloo Bhaina', cursive;
 }

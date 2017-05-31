@@ -22,9 +22,9 @@
         <div id="nav-example">
           <nav>
             <ul class="homenavigation">
-              <li class="active"><a href="#background">Background <span class="sr-only">(current)</span></a></li>
-              <li><a href="#education">Education</a></li>
-              <li><a href="#interest">Interests</a></li>
+              <li class="active"><a href="#background" id="back">Background <span class="sr-only">(current)</span></a></li>
+              <li><a href="#education" id="ed">Education</a></li>
+              <li><a href="#interest" id="int">Interests</a></li>
             </ul>
           </nav>
 
@@ -48,28 +48,36 @@
       </div>
       <div role="tabpanel" class="tab-pane" id="project">
         <!--all content of the project page-->
-        <div class="panel panel-default">
+        <div class="projectdesc">
+          <p><strong>Project description will show up here</strong></p>
+          <div id="traveldes">
+            <p>Built a website called Travel India.</p>
+            <p>The purpose of the website was to provide a tour package with competitive prices.</p>
+            <p><i>Skills used:</i> HTML/CSS, JavaScript for media queries.</p>
 
-          <table class="table">
-            <tbody>
-              <tr>
-                <th>Project name</th>
-                <th>Project description</th>
-              </tr>
-              <tr>
-                <td>Travel website</td>
-                <td>Created a website that serves as a travel agency. The site offered travel packages to places in India that are worth visitng at a competetive price.</td>
-              </tr>
-              <tr>
-              </tr>
-            </tbody>
-          </table>
+          </div>
+          <div id="examdes">
+            <p>Built an online examination system.</p>
+            <p>Worked as Middle, send data to the Back end and Front end as needed, also responsible for scoring the exam that included open-ended Java questions.</p>
+            <p><i>Skills used:</i> programming in PHP using functions such as PHP curl, PHP opt, PHP exec and JSON to encode and decode data.</p>
+
         </div>
+      </div>
+        <div class="wrapper">
+        <div class="projectname" id="travel">
+                <h3 id="t">Travel website</h3>
+        </div>
+        <div class="projectname" id="examination">
+                <h3 id="e">Online Examination System</h3>
+        </div>
+      </div>
       </div>
       <div role="tabpanel" class="tab-pane" id="contact">
         <!--all content of the project page-->
         <button type="button" id="contactbutton">Contact information</button>
-          <p id="contactp">Email: rdungaria@yahoo.com</p>
+          <p class="contactp">Email: rdungaria@yahoo.com</p>
+          <p class="contactp">Secondary email: rukhsard42@gmail.com</p>
+          <p class="contactp">Phone: (201) 707-8777</p>
       </div>
     </div>
 
