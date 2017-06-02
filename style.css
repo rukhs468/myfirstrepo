@@ -63,11 +63,10 @@ ul.homenavigation {
   background: cadetblue;
 }
 ul.cs-list-section {
-  padding-top: 7px;
 
 }
 li.sections {
-  padding-top: 60px;
+  /*padding-top: 60px;*/
   list-style-type: none;
 }
 li.sections h3 {
@@ -78,6 +77,29 @@ li.sections p {
 font-family:'Arvo', serif;
 font-size: 15px;
 color: black;
+}
+#background {
+  padding-top: 80px;
+  height: 0px;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  transition: all .5s ease-in-out;
+}
+
+#education {
+  height: 0px;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  transition: all .5s ease-in-out;
+}
+#interest {
+  height: 0px;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  transition: all .5s ease-in-out;
 }
 .tab-content {
   position: relative;
@@ -114,7 +136,7 @@ td {
   color: black;
   margin-top: 2%;
   margin-left: 34%;
-  font-size: x-large;
+  font-size: 16px;
   font-family: 'Arvo', serif;
 }
 .wrapper {
