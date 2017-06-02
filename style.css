@@ -139,6 +139,7 @@ td {
   font-size: 16px;
   font-family: 'Arvo', serif;
 }
+
 .wrapper {
     margin: 0 auto;
     width: 100%;
@@ -159,6 +160,13 @@ td {
     height: 300px;
     font-family: 'Arvo', serif;
     font-size: 15px;
+}
+.projectdesc a {
+  color: black;
+}
+.projectdesc a:hover {
+  text-decoration: none;
+  color: #dff0d8;
 }
 .projectname {
   margin-left: 40px;
